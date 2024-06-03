@@ -2,7 +2,7 @@
 name: Report a false-positive
 about: Request a removal of website from being flagged.
 title: Remove <replace with url>
-labels: ''
+labels: website remove
 assignees: ''
 
 ---

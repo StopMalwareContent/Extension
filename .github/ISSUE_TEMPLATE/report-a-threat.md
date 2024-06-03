@@ -2,7 +2,7 @@
 name: Report a threat
 about: Report a new harmful web resource my submitting issue.
 title: Add <replace with url>
-labels: ''
+labels: website add
 assignees: ''
 
 ---
