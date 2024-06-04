@@ -1,6 +1,6 @@
 // StopMalwareContent's Source Code for Firefox extension
 // Inspired from https://github.com/StopModReposts/Extension
-const API_URL = "https://api.stopmodreposts.org/sites.json"
+const API_URL = "http://127.0.0.1:8000/sites.json"
 let cachedSites = []
 let ignoreList = []
 let lastBlockedSiteDomain = ""
@@ -29,7 +29,8 @@ chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
     return sendResponse(lastBlockedUrl)
   }
   if (message.type === "add-to-ignore") {
-    ignoreList.push(message.data)
+    ignoreList.push(lastBlockedSiteDomain)
+    print(ignoreList)
     return sendResponse(null)
   }
 })
@@ -52,9 +53,7 @@ browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     (site) => site.domain === host || parsed.host.endsWith(`.${site.domain}`)
   )
   // user said he does not cares?
-  const isIgnored = ignoreList.find(
-    (cs) => cs.domain == site.domain && cs.path == site.path
-  )
+  const isIgnored = ignoreList.includes(site.domain)
   // then we -> skip
   if (isIgnored) return
 
