@@ -5,6 +5,7 @@ let cachedSites = []
 let ignoreList = []
 let lastBlockedSiteDomain = ""
 let lastBlockedSiteReason = ""
+let lastBlockedSiteNotes = ""
 let lastBlockedUrl = ""
 
 refreshCache()
@@ -24,6 +25,9 @@ chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
   }
   if (message.type === "get-blocked-reason") {
     return sendResponse(lastBlockedSiteReason)
+  }
+  if (message.type === "get-blocked-notes") {
+    return sendResponse(lastBlockedSiteNotes)
   }
   if (message.type === "get-blocked-url") {
     return sendResponse(lastBlockedUrl)
@@ -62,6 +66,7 @@ browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     // we're setting this variables so alert.html page will know site's domain, reason and url
     lastBlockedSiteDomain = site.domain
     lastBlockedSiteReason = site.reason
+    lastBlockedSiteNotes = site.notes
     lastBlockedUrl = tab.url
 
     chrome.tabs.update({

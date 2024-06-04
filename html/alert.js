@@ -1,5 +1,6 @@
 let blockedDomain = ""
 let blockedReason = ""
+let blockedNotes = ""
 let blockedUrl = ""
 
 chrome.runtime.sendMessage({ type: "get-blocked-domain" }, (response) => {
@@ -10,6 +11,11 @@ chrome.runtime.sendMessage({ type: "get-blocked-domain" }, (response) => {
 chrome.runtime.sendMessage({ type: "get-blocked-reason" }, (response) => {
   blockedReason = response
   document.getElementById("reason").innerText = blockedReason
+})
+
+chrome.runtime.sendMessage({ type: "get-blocked-notes" }, (response) => {
+  blockedNotes = response
+  document.getElementById("notes").innerText = blockedNotes
 })
 
 chrome.runtime.sendMessage({ type: "get-blocked-url" }, (response) => {
