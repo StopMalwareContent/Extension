@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stop Malware Content - Alert</title>
+    <title>Alert - Dangerous was blocked!</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <style>
       * {
@@ -26,37 +26,44 @@
       section {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        border: 1px solid #e43232;
         padding: 1em;
-        gap: 0.5em;
-        max-width: 400px;
+        gap: 1em;
+        max-width: 500px;
         width: 100%;
-        animation: 1000ms fade-in;
       }
 
-      @keyframes fade-in {
-        0% {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        100% {
-          opacity: 1;
+      h1 {
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+        color: #e43232;
+        font-size: 2em;
+      }
 
-          transform: translateY(0);
-        }
+      b {
+        color: #e43232;
+      }
+
+      .details {
+        border: 1px solid #e43232;
+        padding: 1em;
       }
 
       .btn {
-        background: #e43232;
-        color: #fff;
         border: none;
         padding: 0.5em 1em;
         cursor: pointer;
         border: 1px solid transparent;
       }
 
+      .btn.primary {
+        color: #fff;
+        background: transparent;
+        border: 1px #a8a8a8 solid;
+      }
+
       .btn.secondary {
+        color: #fff;
         background: transparent;
         border: 1px #e43232 solid;
       }
@@ -78,12 +85,36 @@
   </head>
   <body>
     <section>
-      <h1>Alert</h1>
+      <h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-triangle-alert"
+        >
+          <path
+            d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
+          />
+          <path d="M12 9v4" />
+          <path d="M12 17h.01" />
+        </svg>
+        Alert
+      </h1>
       <p>
-        Website that you have attempted to visit is flagged as harmful or
-        unwanted by Stop Malware Content.
+        The website that you have tried to visit was blocked by
+        <b>StopMalwareContent</b> because it was found in our list and was
+        flagged as harmful or potentionally unwanted. Continue at your own risk
+        as this may harm your computer.
       </p>
-      <p>Blocked: <b id="domain"></b>, for <b id="reason"></b></></p>
+      <div class="details">
+        <p>Blocked: <b id="domain"></b>, for <b id="reason"></b></p>
+      </div>
       <div class="actions">
         <button class="btn secondary" id="ignore">Accept the risk</button>
         <button class="btn primary" id="back">Back to safety</button>
