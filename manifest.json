@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Stop Malware Content",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Restricts access to harmful or unwanted web resources.",
 
@@ -21,7 +21,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "smc@extensions.lodine.xyz"
+      "id": "{f58788c2-383d-4453-9e7d-afdcca0c9e65}"
     }
   }
 }
