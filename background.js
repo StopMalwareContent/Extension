@@ -1,12 +1,15 @@
 // StopMalwareContent's Source Code for Firefox extension
 // Inspired from https://github.com/StopModReposts/Extension
-const API_URL = "https://stopmalwarecontent-api.onrender.com/sites.json"
+const API_URL = "https://smc.ldne.xyz/sites.json"
 let cachedSites = []
 let ignoreList = []
-let lastBlockedSiteDomain = ""
-let lastBlockedSiteReason = ""
-let lastBlockedSiteNotes = ""
-let lastBlockedUrl = ""
+let lastBlockedSite = {
+  domain: "",
+  reason: "",
+  notes: "",
+  path: "",
+  url: "",
+}
 
 refreshCache()
 
@@ -20,21 +23,12 @@ function refreshCache() {
 
 // some complex code
 chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
-  if (message.type === "get-blocked-domain") {
-    return sendResponse(lastBlockedSiteDomain)
-  }
-  if (message.type === "get-blocked-reason") {
-    return sendResponse(lastBlockedSiteReason)
-  }
-  if (message.type === "get-blocked-notes") {
-    return sendResponse(lastBlockedSiteNotes)
-  }
-  if (message.type === "get-blocked-url") {
-    return sendResponse(lastBlockedUrl)
+  if (message.type === "get-blocked-site") {
+    return sendResponse(lastBlockedSite)
   }
   if (message.type === "add-to-ignore") {
-    ignoreList.push(lastBlockedSiteDomain)
-    print(ignoreList)
+    ignoreList.push(lastBlockedSite.domain)
+    console.log(ignoreList)
     return sendResponse(null)
   }
 })
@@ -56,21 +50,24 @@ browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   const site = cachedSites.find(
     (site) => site.domain === host || parsed.host.endsWith(`.${site.domain}`)
   )
+
+  if (!site) return
+
   // user said he does not cares?
   const isIgnored = ignoreList.includes(site.domain)
   // then we -> skip
   if (isIgnored) return
+  // check if domain's path is being blocked
+  const pathCorrect = site.path ? parsed.pathname.startsWith(site.path) : true
+  if (!pathCorrect) return
+  // we're setting this variables so alert.html page will know site's domain, reason and url
+  lastBlockedSite.domain = site.domain
+  lastBlockedSite.reason = site.reason
+  lastBlockedSite.notes = site.notes
+  lastBlockedSite.path = site.path
+  lastBlockedSite.url = tab.url
 
-  // what's we gonna do if site FLAGGED
-  if (site) {
-    // we're setting this variables so alert.html page will know site's domain, reason and url
-    lastBlockedSiteDomain = site.domain
-    lastBlockedSiteReason = site.reason
-    lastBlockedSiteNotes = site.notes
-    lastBlockedUrl = tab.url
-
-    chrome.tabs.update({
-      url: chrome.runtime.getURL(`/html/alert.html`),
-    })
-  }
+  chrome.tabs.update({
+    url: chrome.runtime.getURL(`/html/alert.html`),
+  })
 })

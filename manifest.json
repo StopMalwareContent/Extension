@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Stop Malware Content",
   "version": "1.1",
 
@@ -11,9 +11,17 @@
     "128": "icons/icon@3.png"
   },
 
-  "permissions": ["<all_urls>", "tabs"],
+  "permissions": ["tabs"],
+
+  "host_permissions": ["https://smc.ldne.xyz/*"],
 
   "background": {
     "scripts": ["background.js"]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "smc@extensions.lodine.xyz"
+    }
   }
 }

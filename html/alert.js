@@ -1,31 +1,24 @@
-let blockedDomain = ""
-let blockedReason = ""
-let blockedNotes = ""
-let blockedUrl = ""
+let blockedSite = {
+  domain: "",
+  reason: "",
+  notes: "",
+  path: "",
+  url: "",
+}
 
-chrome.runtime.sendMessage({ type: "get-blocked-domain" }, (response) => {
-  blockedDomain = response
-  document.getElementById("domain").innerText = blockedDomain
-})
-
-chrome.runtime.sendMessage({ type: "get-blocked-reason" }, (response) => {
-  blockedReason = response
-  document.getElementById("reason").innerText = blockedReason
-})
-
-chrome.runtime.sendMessage({ type: "get-blocked-notes" }, (response) => {
-  blockedNotes = response
-  document.getElementById("notes").innerText = blockedNotes
-})
-
-chrome.runtime.sendMessage({ type: "get-blocked-url" }, (response) => {
-  blockedUrl = response
+chrome.runtime.sendMessage({ type: "get-blocked-site" }, (response) => {
+  blockedSite = response
+  document.getElementById("domain").innerText = blockedSite.domain
+  document.getElementById("reason").innerText = blockedSite.reason
+  document.getElementById("notes").innerText = blockedSite.notes
+  if (blockedSite.path.length > 1)
+    document.getElementById("path").innerText = blockedSite.path
 })
 
 document.getElementById("ignore").addEventListener("click", () => {
   chrome.runtime.sendMessage({ type: "add-to-ignore" })
   chrome.tabs.update({
-    url: blockedUrl,
+    url: blockedSite.url,
   })
 })
 
