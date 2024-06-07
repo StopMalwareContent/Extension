@@ -35,39 +35,51 @@ chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
 
 let lastNavUrl = ""
 browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  // if url is empty -> skip
+  // If URL is empty, skip
   if (!tab.url) return
-  // if url have not changes -> skip
+
+  // If URL has not changed, skip
   if (lastNavUrl == tab.url) return
-  // making url real URL
+
+  // Making URL a real URL
   const parsed = new URL(tab.url)
-  // getting domain from URL
+
+  // Getting domain from URL
   const host = parsed.host
-  // we will need that for future
+
+  // We will need that for future
   lastNavUrl = tab.url
 
-  // checking if site is flagged!
-  const site = cachedSites.find(
+  // Check if the site is flagged
+  const flaggedSites = cachedSites.filter(
     (site) => site.domain === host || parsed.host.endsWith(`.${site.domain}`)
   )
 
-  if (!site) return
+  if (!flaggedSites.length) return
 
-  // user said he does not cares?
-  const isIgnored = ignoreList.includes(site.domain)
-  // then we -> skip
-  if (isIgnored) return
-  // check if domain's path is being blocked
-  const pathCorrect = site.path ? parsed.pathname.startsWith(site.path) : true
-  if (!pathCorrect) return
-  // we're setting this variables so alert.html page will know site's domain, reason and url
-  lastBlockedSite.domain = site.domain
-  lastBlockedSite.reason = site.reason
-  lastBlockedSite.notes = site.notes
-  lastBlockedSite.path = site.path
-  lastBlockedSite.url = tab.url
+  // Iterate through all flagged sites for this domain
+  for (const site of flaggedSites) {
+    // Check if user ignored this domain
+    const isIgnored = ignoreList.includes(site.domain)
+    if (isIgnored) continue
 
-  chrome.tabs.update({
-    url: chrome.runtime.getURL(`/html/alert.html`),
-  })
+    // Check if the path matches
+    const pathCorrect = site.path ? parsed.pathname.startsWith(site.path) : true
+    if (!pathCorrect) continue
+
+    // Set variables so alert.html page will know site's domain, reason, and URL
+    lastBlockedSite.domain = site.domain
+    lastBlockedSite.reason = site.reason
+    lastBlockedSite.notes = site.notes
+    lastBlockedSite.path = site.path
+    lastBlockedSite.url = tab.url
+
+    // Redirect to the alert page
+    chrome.tabs.update(tabId, {
+      url: chrome.runtime.getURL(`/html/alert.html`),
+    })
+
+    // Exit the loop as we found a match and handled it
+    break
+  }
 })
