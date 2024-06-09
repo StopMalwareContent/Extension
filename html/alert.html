@@ -116,22 +116,29 @@
           <path d="M12 9v4" />
           <path d="M12 17h.01" />
         </svg>
-        Alert
+        <div id="translated-alert">Alert</div>
       </h1>
-      <p>
+      <p id="translated-description">
         The website that you have tried to visit was blocked by
         <b>StopMalwareContent</b> because it was found in our list and was
         flagged as harmful or potentionally unwanted. Continue at your own risk
         as this may harm your computer.
       </p>
       <div class="details">
-        <p>Blocked: <b id="domain"></b><b id="path"></b></p>
-        <p>Reason: <b id="reason"></b></p>
-        <p>Notes: <b id="notes"></b></p>
+        <p>
+          <span id="translated-blocked">Blocked:</span> <b id="domain"></b
+          ><b id="path"></b>
+        </p>
+        <p><span id="translated-reason">Reason:</span> <b id="reason"></b></p>
+        <p><span id="translated-notes">Notes:</span> <b id="notes"></b></p>
       </div>
       <div class="actions">
-        <button class="btn secondary" id="ignore">Accept the risk</button>
-        <button class="btn primary" id="back">Back to safety</button>
+        <button class="btn secondary" id="ignore" tabindex="2">
+          Accept the risk
+        </button>
+        <button class="btn primary" id="back" tabindex="1">
+          Back to safety
+        </button>
       </div>
     </section>
     <script src="alert.js"></script>

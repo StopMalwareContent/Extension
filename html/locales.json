@@ -1,0 +1,65 @@
+{
+  "en": {
+    "title": "Alert",
+    "description": "The website that you have tried to visit was blocked by <b>StopMalwareContent</b> because it was found in our list and was flagged as harmful or potentionally unwanted. Continue at your own risk as this may harm your computer.",
+    "blocked": "Blocked:",
+    "reason": "Reason:",
+    "notes": "Notes:",
+    "accept_the_risk": "Accept the risk",
+    "back_to_safety": "Back to safety"
+  },
+  "ru": {
+    "title": "Внимание",
+    "description": "Сайт, который вы пытались посетить, был заблокирован <b>StopMalwareContent</b>, потому что он был найден в нашем списке и отмечен как вредоносный или потенциально нежелательный. Продолжайте на свой страх и риск, так как это может нанести вред вашему компьютеру.",
+    "blocked": "Заблокировано:",
+    "reason": "Причина:",
+    "notes": "Примечания:",
+    "accept_the_risk": "Принять риск",
+    "back_to_safety": "Вернуться к безопасности"
+  },
+  "fr": {
+    "title": "Alerte",
+    "description": "Le site Web que vous avez essayé de visiter a été bloqué par <b>StopMalwareContent</b> car il a été trouvé dans notre liste et a été signalé comme dangereux ou potentiellement indésirable. Continuez à vos propres risques car cela pourrait nuire à votre ordinateur.",
+    "blocked": "Bloqué:",
+    "reason": "Raison:",
+    "notes": "Remarques:",
+    "accept_the_risk": "Accepter le risque",
+    "back_to_safety": "Retour en sécurité"
+  },
+  "de": {
+    "title": "Warnung",
+    "description": "Die Website, die Sie besuchen wollten, wurde von <b>StopMalwareContent</b> blockiert, da sie in unserer Liste gefunden und als schädlich oder potenziell unerwünscht gekennzeichnet wurde. Fahren Sie auf eigenes Risiko fort, da dies Ihrem Computer schaden kann.",
+    "blocked": "Blockiert:",
+    "reason": "Grund:",
+    "notes": "Hinweise:",
+    "accept_the_risk": "Akzeptieren Sie das Risiko",
+    "back_to_safety": "Zurück zur Sicherheit"
+  },
+  "pt": {
+    "title": "Alerta",
+    "description": "O site que você tentou visitar foi bloqueado por <b>StopMalwareContent</b> porque foi encontrado em nossa lista e foi sinalizado como prejudicial ou potencialmente indesejado. Continue por sua própria conta e risco, pois isso pode prejudicar seu computador.",
+    "blocked": "Bloqueado:",
+    "reason": "Motivo:",
+    "notes": "Notas:",
+    "accept_the_risk": "Aceite o risco",
+    "back_to_safety": "De volta à segurança"
+  },
+  "zh": {
+    "title": "警告",
+    "description": "您尝试访问的网站已被 <b>StopMalwareContent</b> 阻止，因为该网站出现在我们的列表中，并被标记为有害或潜在有害。继续访问需自担风险，因为这可能会损害您的计算机。",
+    "blocked": "已阻止：",
+    "reason": "原因：",
+    "notes": "注意事项：",
+    "accept_the_risk": "接受风险",
+    "back_to_safety": "返回安全"
+  },
+  "es": {
+    "title": "Alerta",
+    "description": "El sitio web que intentó visitar fue bloqueado por <b>StopMalwareContent</b> porque se encontró en nuestra lista y se marcó como dañino o potencialmente no deseado. Continúe bajo su propio riesgo, ya que esto puede dañar su computadora.",
+    "bloqueado": "Bloqueado:",
+    "reason": "Razón:",
+    "notes": "Notas:",
+    "accept_the_risk": "Acepta el riesgo",
+    "back_to_safety": "Volver a la seguridad"
+  }
+}

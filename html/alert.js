@@ -5,6 +5,29 @@ let blockedSite = {
   path: "",
   url: "",
 }
+let preferedLanguage = navigator.language.split("-")[0]
+
+fetch("./locales.json")
+  .then((response) => response.json())
+  .then((data) => {
+    if (data[preferedLanguage]) {
+      document.getElementById("translated-alert").innerHTML =
+        data[preferedLanguage].title
+      document.getElementById("translated-description").innerHTML =
+        data[preferedLanguage].description
+      document.getElementById("translated-blocked").innerText =
+        data[preferedLanguage].blocked
+      document.getElementById("translated-reason").innerText =
+        data[preferedLanguage].reason
+      document.getElementById("translated-notes").innerText =
+        data[preferedLanguage].notes
+      document.getElementById("ignore").innerText =
+        data[preferedLanguage].accept_the_risk
+      document.getElementById("back").innerText =
+        data[preferedLanguage].back_to_safety
+    }
+  })
+  .catch((error) => console.log(error))
 
 chrome.runtime.sendMessage({ type: "get-blocked-site" }, (response) => {
   blockedSite = response
