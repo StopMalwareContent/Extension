@@ -1,4 +1,4 @@
-# StopMalwareContent - Firefox Extension
+# StopMalwareContent - Browser Extension
 
 [![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 ![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc.ldne.xyz%2Fstats&query=%24.sites&label=sites)
