@@ -61,5 +61,14 @@
     "notes": "Notas:",
     "accept_the_risk": "Acepta el riesgo",
     "back_to_safety": "Volver a la seguridad"
+  },
+  "vi": {
+    "title": "Cảnh báo"
+    "description": "Trang web mà bạn muốn dùng đã bị chặn bởi <b>StopMalwareContent</b> vì trang này đã thấy trong danh sách của chúng ta và bị ghi là có hại hoặc có thể không muốn. Hãy tiếp tục với rủi ro là trang này có thể làm hỏng máy của bạn.",
+    "blocked": "Đã chặn:",
+    "reason": "Lý do:",
+    "notes": "Ghi chú:"
+    "accept_the_risk": "Chấp nhận rủi ro",
+    "back_to_safety": "Quay lại chỗ an toàn"
   }
 }
