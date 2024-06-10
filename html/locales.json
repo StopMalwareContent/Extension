@@ -56,7 +56,7 @@
   "es": {
     "title": "Alerta",
     "description": "El sitio web que intentó visitar fue bloqueado por <b>StopMalwareContent</b> porque se encontró en nuestra lista y se marcó como dañino o potencialmente no deseado. Continúe bajo su propio riesgo, ya que esto puede dañar su computadora.",
-    "bloqueado": "Bloqueado:",
+    "blocked": "Bloqueado:",
     "reason": "Razón:",
     "notes": "Notas:",
     "accept_the_risk": "Acepta el riesgo",
