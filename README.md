@@ -23,6 +23,10 @@ Yes! It's very simple, just to go this project's Issues tab and create issue usi
 
 StopMalwareContent is flagging something that isn't harmful? Just to go this project's Issues tab and create issue using "Report false-positive" template!
 
+## Contributors
+
+* Thanks [@blryface](https://github.com/blryface), for *active beta-testing* & *being helpful*.
+
 ## Credits
 
 Thanks [StopModReposts](https://stopmodreposts.org/) team for inspiring me to make this extension!
