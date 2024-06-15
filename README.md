@@ -11,28 +11,28 @@ Restricts access to harmful or unwanted web resources.
 
 ## FAQ
 
-### Why we need StopMalwareContent if we have StopModReposts extension?
+### Why do we need StopMalwareContent if we have the StopModReposts extension?
 
-The main reason is that StopModReposts is <b>not being maintained</b>, this extension is being maintained and supported, it's using Illegal-Mod-Sites list made by StopModReposts.
+The main reason is that StopModReposts is **not being actively mantained**, but this extension is and is recieving constant updates. It also uses the StopModReposts' ``Illegal-Mod-Sites`` list.
 
-### Can I report new website?
+### Can I report a new website?
 
-Yes! It's very simple, just to go this project's Issues tab and create issue using "Report new threat" template!
+Sure! It's very simple, just [Click here](https://github.com/StopMalwareContent/Extension/issues/new?assignees=&labels=website+add&projects=&template=report-a-threat.md&title=Add+%3Creplace+with+url%3E) to open an issue about a new threat.
 
-### There's a false-positive!
+### There is a false-positive!
 
-StopMalwareContent is flagging something that isn't harmful? Just to go this project's Issues tab and create issue using "Report false-positive" template!
+If StopMalwareContent is flagging something that it shouldn't, just [Click here](https://github.com/StopMalwareContent/Extension/issues/new?assignees=&labels=website+remove&projects=&template=report-a-false-positive.md&title=Remove+%3Creplace+with+url%3E) to open an issue about a false-positive.
 
 ## Contributors
 
-- Thanks [@blryface](https://github.com/blryface), for _active beta-testing_ & _being helpful_.
+- Thanks [@blryface](https://github.com/blryface), for _active beta-testing, Brazilian Portuguese translation, tweaks to the description_ & _being helpful_.
 - Thanks [@KTrain](https://github.com/KTrain5169), for _contributing_ & _Vietnamese translation_.
 
 ## Credits
 
-Thanks [StopModReposts](https://stopmodreposts.org/) team for inspiring me to make this extension!
+Thanks to the [StopModReposts](https://stopmodreposts.org/) team for inspiring me to make this extension!
 
-Based on a work at https://github.com/StopModReposts/Illegal-Mod-Sites.
+Harmful website list based on [StopModReposts/Illegal-Mod-Sites](https://github.com/StopModReposts/Illegal-Mod-Sites).
 
 ## License
 
