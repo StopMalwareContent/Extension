@@ -7,8 +7,14 @@ assignees: ''
 
 ---
 
-### What type of threat you are reporting?
-I'm reporting a [Harmful/Intentionally Unwanted/Illegally redistributing] website.
+**What type of threat you are reporting?**
 
-### What's the domain name?
+I'm reporting a [Harmful/Potentionally Unwanted/Illegally redistributing] website.
+
+**What's the domain name?**
+
 <replace with domain name>
+
+**Anything more?**
+
+<replace this with anything more>
