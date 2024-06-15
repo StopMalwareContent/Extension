@@ -13,7 +13,7 @@ Restricts access to harmful or unwanted web resources.
 
 ### Why do we need StopMalwareContent if we have the StopModReposts extension?
 
-The main reason is that StopModReposts is **not being actively mantained**, but this extension is and is recieving constant updates. It also uses the StopModReposts' ``Illegal-Mod-Sites`` list.
+The main reason is that StopModReposts is **not being actively mantained**, but this extension is receiving constant updates. It also uses the StopModReposts' ``Illegal-Mod-Sites`` list.
 
 ### Can I report a new website?
 
@@ -25,20 +25,24 @@ If StopMalwareContent is flagging something that it shouldn't, just [Click here]
 
 ## Contributors
 
-- Thanks [@blryface](https://github.com/blryface), for _active beta-testing, Brazilian Portuguese translation, tweaks to the description_ & _being helpful_.
+- Thanks [@blryface](https://github.com/blryface), for _active beta-testing, Brazilian/Portuguese translation, tweaks to the description_ & _being helpful_.
 - Thanks [@KTrain](https://github.com/KTrain5169), for _contributing_ & _Vietnamese translation_.
 
 ## Development
 
 Before starting adding new features to our extension, make sure to learn [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
 
-We highly reccomend using [Conventional Commits](https://conventionalcommits.org/en/v1.0.0/#summary) for commit messages!
+We highly recommend using [Conventional Commits](https://conventionalcommits.org/en/v1.0.0/#summary) for commit messages!
 
 ## Credits
 
 Thanks to the [StopModReposts](https://stopmodreposts.org/) team for inspiring me to make this extension!
 
 Harmful website list based on [StopModReposts/Illegal-Mod-Sites](https://github.com/StopModReposts/Illegal-Mod-Sites).
+
+## Block list
+
+You may view the sites blocked by the extension [on our website's Sites section](https://stopmalwarecontent.pages.dev/sites).
 
 ## License
 

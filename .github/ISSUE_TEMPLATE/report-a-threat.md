@@ -1,7 +1,7 @@
 ---
 name: Report a threat
 about: Report a new harmful web resource my submitting issue.
-title: Add <replace with url>
+title: Add <replace with url> to the blocklist
 labels: website add
 assignees: ''
 
@@ -17,4 +17,4 @@ I'm reporting a [Harmful/Potentionally Unwanted/Illegally redistributing] websit
 
 **Anything more?**
 
-<replace this with anything more>
+<add extra notes if needed>
