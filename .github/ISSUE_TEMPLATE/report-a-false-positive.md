@@ -10,7 +10,7 @@ assignees: ''
 ### Why the website was flagged?
 <replace with reason>
 
-### Why the website should be flagged?
+### Why the website should be unflagged?
 <replace with reason>
 
 ### What's the domain name?
