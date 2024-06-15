@@ -44,6 +44,15 @@
     "accept_the_risk": "Aceite o risco",
     "back_to_safety": "De volta à segurança"
   },
+  "br": {
+    "title": "Alerta",
+    "description": "O site que você tentou acessar foi bloqueado pelo <b>StopMalwareContent</b> porque está na nossa lista e foi sinalizado como prejudicial ou potencialmente indesejado. Continue por sua conta e risco, porque isto pode danificar seu dispositivo.",
+    "blocked": "Bloqueado:",
+    "reason": "Razão:",
+    "notes": "Notas:",
+    "accept_the_risk": "Aceitar o risco",
+    "back_to_safety": "Voltar à segurança"
+  },
   "zh": {
     "title": "警告",
     "description": "您尝试访问的网站已被 <b>StopMalwareContent</b> 阻止，因为该网站出现在我们的列表中，并被标记为有害或潜在有害。继续访问需自担风险，因为这可能会损害您的计算机。",
