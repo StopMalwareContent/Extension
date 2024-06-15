@@ -6,7 +6,9 @@
     "reason": "Reason:",
     "notes": "Notes:",
     "accept_the_risk": "Accept the risk",
-    "back_to_safety": "Back to safety"
+    "back_to_safety": "Back to safety",
+    "was_this_an_error": "Was this an error?",
+    "report_a_false_positive": "Report a false positive."
   },
   "ru": {
     "title": "Внимание",
@@ -78,6 +80,8 @@
     "reason": "Lý do:",
     "notes": "Ghi chú:",
     "accept_the_risk": "Chấp nhận rủi ro",
-    "back_to_safety": "Quay lại chỗ an toàn"
+    "back_to_safety": "Quay lại chỗ an toàn",
+    "was_this_an_error": "Đây có sai không?",
+    "report_a_false_positive": "Báo dương tính giả."
   }
 }

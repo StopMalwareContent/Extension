@@ -80,6 +80,17 @@
         border: 1px #e43232 solid;
       }
 
+      .footer {
+        display: flex;
+        color: #ccc;
+        gap: 0.3em;
+      }
+
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+
       .btn:hover {
         opacity: 0.8;
       }
@@ -139,6 +150,10 @@
         <button class="btn primary" id="back" tabindex="1">
           Back to safety
         </button>
+      </div>
+      <div class="footer">
+        <p class="secondary" id="was-this-an-error">Was this an error?</p>
+        <a href="https://github.com/StopMalwareContent/Extension/issues/new/choose" id="report-a-false-positive">Report a false positive.</a>
       </div>
     </section>
     <script src="alert.js"></script>

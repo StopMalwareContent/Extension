@@ -25,6 +25,10 @@ fetch("./locales.json")
         data[preferedLanguage].accept_the_risk
       document.getElementById("back").innerText =
         data[preferedLanguage].back_to_safety
+      document.getElementById("was-this-an-error").innerText =
+        data[preferedLanguage].was_this_an_error
+      document.getElementById("report-a-false-positive").innerTest =
+        data[preferedLanguage].report_a_false_positive
     }
   })
   .catch((error) => console.log(error))
