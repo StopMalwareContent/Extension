@@ -28,6 +28,12 @@ If StopMalwareContent is flagging something that it shouldn't, just [Click here]
 - Thanks [@blryface](https://github.com/blryface), for _active beta-testing, Brazilian Portuguese translation, tweaks to the description_ & _being helpful_.
 - Thanks [@KTrain](https://github.com/KTrain5169), for _contributing_ & _Vietnamese translation_.
 
+## Development
+
+Before starting adding new features to our extension, make sure to learn [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
+
+We highly reccomend using [Conventional Commits](https://conventionalcommits.org/en/v1.0.0/#summary) for commit messages!
+
 ## Credits
 
 Thanks to the [StopModReposts](https://stopmodreposts.org/) team for inspiring me to make this extension!
