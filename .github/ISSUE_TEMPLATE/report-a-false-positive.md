@@ -7,11 +7,8 @@ assignees: ''
 
 ---
 
-### Why the website was flagged?
+**Why the website should be unflagged?**
 <replace with reason>
 
-### Why the website should be unflagged?
-<replace with reason>
-
-### What's the domain name?
+**What's the domain name?**
 <replace with domain name>
