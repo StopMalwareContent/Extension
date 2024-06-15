@@ -25,7 +25,7 @@ StopMalwareContent is flagging something that isn't harmful? Just to go this pro
 
 ## Contributors
 
-- Thanks [@blryface](https://github.com/blryface), for _active beta-testing_ & _being helpful_.
+- Thanks [@blryface](https://github.com/blryface), for _active beta-testing, Brazilian Portuguese translation_ & _being helpful_.
 - Thanks [@KTrain](https://github.com/KTrain5169), for _contributing_ & _Vietnamese translation_.
 
 ## Credits
