@@ -27,7 +27,7 @@ fetch("./locales.json")
         data[preferedLanguage].back_to_safety
       document.getElementById("was-this-an-error").innerText =
         data[preferedLanguage].was_this_an_error
-      document.getElementById("report-a-false-positive").innerTest =
+      document.getElementById("report-a-false-positive").innerText =
         data[preferedLanguage].report_a_false_positive
     }
   })
