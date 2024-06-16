@@ -7,8 +7,8 @@ labels:
   duplicate:
     action: close
     delay: 0s
-    comment: "⚠️ Your request has been removed for being duplicate, next time please check if domain that you want to report was not already reported before creating new one."
+    comment: "⚠️ Your request has been removed for being duplicate, next time please check if the domain that you want to report was not already reported before creating a new one."
   rejected:
     action: close
     delay: 0s
-    comment: "🚫 Your request was denied, please don't open issue with same domain again! If you think there was an error, comment below and issue will be reviewed again."
+    comment: "🚫 Your request was denied, please don't open an issue with the same domain again! If you think there was an error, comment below and the issue will be reviewed again."

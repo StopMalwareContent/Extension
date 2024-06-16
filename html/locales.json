@@ -17,7 +17,9 @@
     "reason": "Причина:",
     "notes": "Примечания:",
     "accept_the_risk": "Принять риск",
-    "back_to_safety": "Вернуться к безопасности"
+    "back_to_safety": "Вернуться к безопасности",
+    "was_this_an_error": "Думаете то что это ошибка?",
+    "report_a_false_positive": "Сообщить об ошибке."
   },
   "fr": {
     "title": "Alerte",
@@ -26,7 +28,9 @@
     "reason": "Raison:",
     "notes": "Remarques:",
     "accept_the_risk": "Accepter le risque",
-    "back_to_safety": "Retour en sécurité"
+    "back_to_safety": "Retour en sécurité",
+    "was_this_an_error": "Était-ce une erreur?",
+    "report_a_false_positive": "Signalez un faux positif."
   },
   "de": {
     "title": "Warnung",
@@ -35,7 +39,9 @@
     "reason": "Grund:",
     "notes": "Hinweise:",
     "accept_the_risk": "Akzeptieren Sie das Risiko",
-    "back_to_safety": "Zurück zur Sicherheit"
+    "back_to_safety": "Zurück zur Sicherheit",
+    "was_this_an_error": "War das ein Fehler?",
+    "report_a_false_positive": "Melden Sie einen Fehlalarm."
   },
   "pt": {
     "title": "Alerta",
@@ -44,7 +50,9 @@
     "reason": "Motivo:",
     "notes": "Notas:",
     "accept_the_risk": "Aceite o risco",
-    "back_to_safety": "De volta à segurança"
+    "back_to_safety": "De volta à segurança",
+    "was_this_an_error": "Was this an error?",
+    "report_a_false_positive": "Report a false positive."
   },
   "br": {
     "title": "Alerta",
@@ -53,7 +61,9 @@
     "reason": "Razão:",
     "notes": "Notas:",
     "accept_the_risk": "Aceitar o risco",
-    "back_to_safety": "Voltar à segurança"
+    "back_to_safety": "Voltar à segurança",
+    "was_this_an_error": "Was this an error?",
+    "report_a_false_positive": "Report a false positive."
   },
   "zh": {
     "title": "警告",
@@ -62,7 +72,9 @@
     "reason": "原因：",
     "notes": "注意事项：",
     "accept_the_risk": "接受风险",
-    "back_to_safety": "返回安全"
+    "back_to_safety": "返回安全",
+    "was_this_an_error": "这是一个错误吗？",
+    "report_a_false_positive": "报告误报。"
   },
   "es": {
     "title": "Alerta",
@@ -71,7 +83,9 @@
     "reason": "Razón:",
     "notes": "Notas:",
     "accept_the_risk": "Acepta el riesgo",
-    "back_to_safety": "Volver a la seguridad"
+    "back_to_safety": "Volver a la seguridad",
+    "was_this_an_error": "¿Fue esto un error?",
+    "report_a_false_positive": "Reportar una falsa positiva."
   },
   "vi": {
     "title": "Cảnh báo",
@@ -83,5 +97,6 @@
     "back_to_safety": "Quay lại chỗ an toàn",
     "was_this_an_error": "Tôi có sai không?",
     "report_a_false_positive": "Hãy báo dương tính giả."
+
   }
 }
