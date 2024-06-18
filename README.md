@@ -32,8 +32,6 @@ If StopMalwareContent is flagging something that it shouldn't, just [Click here]
 
 Before starting adding new features to our extension, make sure to learn [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
 
-We highly recommend using [Conventional Commits](https://conventionalcommits.org/en/v1.0.0/#summary) for commit messages!
-
 ## Credits
 
 Thanks to the [StopModReposts](https://stopmodreposts.org/) team for inspiring me to make this extension!
