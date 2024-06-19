@@ -6,6 +6,10 @@
     <title>Alert - Dangerous website was blocked!</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <style>
+      :root {
+        --primary: #e43232;
+      }
+
       * {
         box-sizing: border-box;
         margin: 0;
@@ -48,16 +52,16 @@
         display: flex;
         align-items: center;
         gap: 0.3em;
-        color: #e43232;
+        color: var(--primary);
         font-size: 2em;
       }
 
       b {
-        color: #e43232;
+        color: var(--primary);
       }
 
       .details {
-        border: 1px solid #e43232;
+        border: 1px solid var(--primary);
         padding: 1em;
       }
 
@@ -77,7 +81,7 @@
       .btn.secondary {
         color: #fff;
         background: transparent;
-        border: 1px #e43232 solid;
+        border: 1px var(--primary) solid;
       }
 
       .btn:hover {
@@ -116,9 +120,9 @@
           <path d="M12 9v4" />
           <path d="M12 17h.01" />
         </svg>
-        <div id="translated-alert">Alert</div>
+        <div translate-key="title">Alert</div>
       </h1>
-      <p id="translated-description">
+      <p translate-key="description">
         The website that you have tried to visit was blocked by
         <b>StopMalwareContent</b> because it was found in our list and was
         flagged as harmful or potentionally unwanted. Continue at your own risk
@@ -126,17 +130,27 @@
       </p>
       <div class="details">
         <p>
-          <span id="translated-blocked">Blocked:</span> <b id="domain"></b
+          <span translate-key="blocked">Blocked:</span> <b id="domain"></b
           ><b id="path"></b>
         </p>
-        <p><span id="translated-reason">Reason:</span> <b id="reason"></b></p>
-        <p><span id="translated-notes">Notes:</span> <b id="notes"></b></p>
+        <p><span translate-key="reason">Reason:</span> <b id="reason"></b></p>
+        <p><span translate-key="notes">Notes:</span> <b id="notes"></b></p>
       </div>
       <div class="actions">
-        <button class="btn secondary" id="ignore" tabindex="2">
+        <button
+          translate-key="accept_the_risk"
+          class="btn secondary"
+          id="ignore"
+          tabindex="2"
+        >
           Accept the risk
         </button>
-        <button class="btn primary" id="back" tabindex="1">
+        <button
+          translate-key="back_to_safety"
+          class="btn primary"
+          id="back"
+          tabindex="1"
+        >
           Back to safety
         </button>
       </div>
