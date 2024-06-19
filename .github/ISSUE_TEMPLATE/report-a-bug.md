@@ -4,7 +4,7 @@ about: Use this template to report bugs in the extension.
 title: [Bug] (put a title for the bug here)
 labels: bug
 assignees: 
-- Nittrine
+- Nitrrine
 - KTrain5169
 
 ---
