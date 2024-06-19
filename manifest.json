@@ -1,9 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Stop Malware Content",
-  "version": "1.3.6",
+  "version": "1.3.7",
 
   "description": "Restricts access to harmful or unwanted web resources.",
+
+  "developer": {
+    "name": "Lodine Software",
+    "url": "https://stopmalwarecontent.lodine.xyz"
+  },
 
   "icons": {
     "48": "icons/icon.png",
