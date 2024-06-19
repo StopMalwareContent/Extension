@@ -34,7 +34,7 @@ chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
 })
 
 let lastNavUrl = ""
-browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   // If URL is empty, skip
   if (!tab.url) return
 
