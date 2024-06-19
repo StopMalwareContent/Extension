@@ -7,7 +7,7 @@ If you're ready to go, follow these instructions:
 - Fork this repository.
 - Create a new branch in your fork and base it off of `main`.
 - Clone your fork onto your local machine.
-- [Install Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and configure it to automatically format the document on save. See ![Format on Save option in VS Code](format-on-save.png) if you need help finding the option.
+- [Install Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and configure it to automatically format the document on save. See ![Format on Save option in VS Code](https://github.com/StopMalwareContent/Extension/assets/43351072/05b6d725-f533-49df-aec2-4370a4e76ed9) if you need help finding the option.
 - Switch to the new branch.
 - Install web-ext to debug your changes in Firefox.
 - Make changes to your branch.
