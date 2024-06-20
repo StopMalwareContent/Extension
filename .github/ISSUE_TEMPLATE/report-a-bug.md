@@ -6,7 +6,6 @@ labels: bug
 assignees: 
 - Nitrrine
 - KTrain5169
-
 ---
 
 **Describe the bug you are experiencing:**
