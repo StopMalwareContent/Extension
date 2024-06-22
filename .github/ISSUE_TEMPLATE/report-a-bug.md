@@ -1,12 +1,11 @@
 ---
 name: Report a bug
 about: Use this template to report bugs in the extension.
-title: [Bug] (put a title for the bug here)
+title: "[Bug] (put a title for the bug here)"
 labels: bug
-assignees: 
-- Nitrrine
-- KTrain5169
-
+assignees:
+  - Nitrrine
+  - KTrain5169
 ---
 
 **Describe the bug you are experiencing:**
