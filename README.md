@@ -41,7 +41,3 @@ Harmful website list based on [StopModReposts/Illegal-Mod-Sites](https://github.
 ## Block list
 
 You may view the sites blocked by the extension [on our website's Sites section](https://stopmalwarecontent.pages.dev/sites).
-
-## License
-
-[![Attribution-ShareAlike 4.0 International](https://licensebuttons.net/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
