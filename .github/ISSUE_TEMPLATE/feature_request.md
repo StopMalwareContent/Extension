@@ -1,9 +1,11 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: '(put a title for your feature request here)'
 labels: feature request
-assignees: ''
+assignees:
+- Nitrrine
+- KTrain5169
 
 ---
 
@@ -18,3 +20,8 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+**Checklist:**
+
+- [ ] I have checked that this is not a duplicate feature request.
+- [ ] I have put clear details on the bug report.
