@@ -3,9 +3,7 @@ name: Report a bug
 about: Use this template to report bugs in the extension.
 title: "(put a title for the bug here)"
 labels: bug
-assignees:
-- Nitrrine
-- KTrain5169
+assignees: Nitrrine
 
 ---
 
