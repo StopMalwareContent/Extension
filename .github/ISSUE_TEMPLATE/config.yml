@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Request new sites to be added
+    url: https://github.com/StopMalwareContent/Site-Tracker/issues/new?assignees=Nitrrine&labels=website+add&projects=&template=report-a-threat.md&title=Add+%28url+goes+here%29+to+the+blocklist
+    about: If you think we should add a new website to the list, go here.
+  - name: Report a false-positive
+    url: https://github.com/StopMalwareContent/Site-Tracker/issues/new?assignees=Nitrrine&labels=website+remove&projects=&template=report-a-false-positive.md&title=Remove+%28url+goes+here%29+from+block+list
+    about: If a website is mislabeled in your opinion, report that here.
