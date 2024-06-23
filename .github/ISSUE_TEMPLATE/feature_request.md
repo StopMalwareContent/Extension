@@ -1,11 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: '(put a title for your feature request here)'
+title: "(put a title for your feature request here)"
 labels: feature request
-assignees:
-- Nitrrine
-- KTrain5169
+assignees: Nitrrine
 
 ---
 
