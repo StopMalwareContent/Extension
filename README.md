@@ -17,11 +17,11 @@ The main reason is that StopModReposts is **not being actively mantained**, but 
 
 ### Can I report a new website?
 
-Sure! It's very simple, just [Click here](https://github.com/StopMalwareContent/Extension/issues/new?assignees=&labels=website+add&projects=&template=report-a-threat.md&title=Add+%3Creplace+with+url%3E) to open an issue about a new threat.
+Sure! It's very simple, just [Click here](https://github.com/StopMalwareContent/Site-Tracker/issues/new?assignees=Nitrrine&labels=website+add&projects=&template=report-a-threat.md&title=Add+%28url+goes+here%29+to+the+blocklist) to open an issue about a new threat.
 
 ### There is a false-positive!
 
-If StopMalwareContent is flagging something that it shouldn't, just [Click here](https://github.com/StopMalwareContent/Extension/issues/new?assignees=&labels=website+remove&projects=&template=report-a-false-positive.md&title=Remove+%3Creplace+with+url%3E) to open an issue about a false-positive.
+If StopMalwareContent is flagging something that it shouldn't, just [Click here](https://github.com/StopMalwareContent/Site-Tracker/issues/new?assignees=Nitrrine&labels=website+remove&projects=&template=report-a-false-positive.md&title=Remove+%28url+goes+here%29+from+block+list) to open an issue about a false-positive.
 
 ## Contributors
 
