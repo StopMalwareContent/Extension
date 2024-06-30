@@ -51,8 +51,8 @@
     "notes": "Notas:",
     "accept_the_risk": "Aceite o risco",
     "back_to_safety": "De volta à segurança",
-    "was_this_an_error": "Was this an error?",
-    "report_a_false_positive": "Report a false positive."
+    "was_this_an_error": "Isto é um erro?",
+    "report_a_false_positive": "Reportar um falso positivo."
   },
   "br": {
     "title": "Alerta",
@@ -62,8 +62,8 @@
     "notes": "Notas:",
     "accept_the_risk": "Aceitar o risco",
     "back_to_safety": "Voltar à segurança",
-    "was_this_an_error": "Was this an error?",
-    "report_a_false_positive": "Report a false positive."
+    "was_this_an_error": "Isso foi um erro??",
+    "report_a_false_positive": "Reportar um falso positivo."
   },
   "zh": {
     "title": "警告",
