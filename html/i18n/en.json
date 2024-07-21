@@ -1,0 +1,11 @@
+{
+  "title": "Alert",
+  "description": "The website that you have tried to visit was blocked by <b>StopMalwareContent</b> because it was found in our list and was flagged as harmful or potentionally unwanted. Continue at your own risk as this may harm your computer.",
+  "blocked": "Blocked:",
+  "reason": "Reason:",
+  "notes": "Notes:",
+  "accept_the_risk": "Accept the risk",
+  "back_to_safety": "Back to safety",
+  "was_this_an_error": "Was this an error?",
+  "report_a_false_positive": "Report a false positive."
+}

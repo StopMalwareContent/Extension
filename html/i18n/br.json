@@ -1,0 +1,11 @@
+{
+  "title": "Alerta",
+  "description": "O site que você tentou acessar foi bloqueado pelo <b>StopMalwareContent</b> porque está na nossa lista e foi sinalizado como prejudicial ou potencialmente indesejado. Continue por sua conta e risco, porque isto pode danificar seu dispositivo.",
+  "blocked": "Bloqueado:",
+  "reason": "Razão:",
+  "notes": "Notas:",
+  "accept_the_risk": "Aceitar o risco",
+  "back_to_safety": "Voltar à segurança",
+  "was_this_an_error": "Isso foi um erro??",
+  "report_a_false_positive": "Reportar um falso positivo."
+}

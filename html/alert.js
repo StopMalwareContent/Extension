@@ -7,18 +7,16 @@ let blockedSite = {
 }
 let preferedLanguage = navigator.language.split("-")[0]
 
-fetch("./locales.json")
+fetch(`./i18n/${preferedLanguage}.json`)
   .then((response) => response.json())
   .then((data) => {
-    if (data[preferedLanguage]) {
-      var elements = document.getElementsByTagName("*")
+    var elements = document.getElementsByTagName("*")
 
-      for (let i = 0; i < elements.length; i++) {
-        const element = elements[i]
-        let translateKey = element.getAttribute("translate-key")
-        if (translateKey) {
-          element.innerHTML = data[preferedLanguage][translateKey]
-        }
+    for (let i = 0; i < elements.length; i++) {
+      const element = elements[i]
+      let translateKey = element.getAttribute("translate-key")
+      if (translateKey) {
+        element.innerHTML = data[translateKey]
       }
     }
   })
