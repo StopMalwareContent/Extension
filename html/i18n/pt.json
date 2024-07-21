@@ -1,11 +1,11 @@
 {
-  "title": "Alerta",
-  "description": "O site que você tentou visitar foi bloqueado por <b>StopMalwareContent</b> porque foi encontrado em nossa lista e foi sinalizado como prejudicial ou potencialmente indesejado. Continue por sua própria conta e risco, pois isso pode prejudicar seu computador.",
-  "blocked": "Bloqueado:",
-  "reason": "Motivo:",
-  "notes": "Notas:",
-  "accept_the_risk": "Aceite o risco",
-  "back_to_safety": "De volta à segurança",
-  "was_this_an_error": "Isto é um erro?",
-  "report_a_false_positive": "Reportar um falso positivo."
+  "title": "Alert",
+  "description": "The website that you have tried to visit was blocked by <b>StopMalwareContent</b> because it was found in our list and was flagged as harmful or potentionally unwanted. Continue at your own risk as this may harm your computer.",
+  "blocked": "Blocked:",
+  "reason": "Reason:",
+  "notes": "Notes:",
+  "accept_the_risk": "Accept the risk",
+  "back_to_safety": "Back to safety",
+  "was_this_an_error": "Was this an error?",
+  "report_a_false_positive": "Report a false positive."
 }
