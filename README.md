@@ -1,6 +1,7 @@
 # StopMalwareContent - Browser Extension
 
 [![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Status Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1hrvd.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 [![Crowdin](https://badges.crowdin.net/stopmalwarecontent/localized.svg)](https://crowdin.com/project/stopmalwarecontent)
 ![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc.ldne.xyz%2Fstats&query=%24.sites&label=sites)
 [![Join Discord](https://img.shields.io/badge/join-Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/C8VprernmY)
