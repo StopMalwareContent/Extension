@@ -1,11 +1,11 @@
 {
-  "title": "Cảnh báo",
-  "description": "Trang web mà bạn muốn dùng đã bị chặn bởi <b>StopMalwareContent</b> vì trang này đã thấy trong danh sách của chúng ta và bị ghi là có hại hoặc có thể không muốn. Hãy tiếp tục với rủi ro là trang này có thể làm hỏng máy của bạn.",
-  "blocked": "Đã chặn:",
-  "reason": "Lý do:",
-  "notes": "Ghi chú:",
-  "accept_the_risk": "Chấp nhận rủi ro",
-  "back_to_safety": "Quay lại chỗ an toàn",
-  "was_this_an_error": "Tôi có sai không?",
-  "report_a_false_positive": "Hãy báo dương tính giả."
+  "title": "Alert",
+  "description": "The website that you have tried to visit was blocked by <b>StopMalwareContent</b> because it was found in our list and was flagged as harmful or potentionally unwanted. Continue at your own risk as this may harm your computer.",
+  "blocked": "Blocked:",
+  "reason": "Reason:",
+  "notes": "Notes:",
+  "accept_the_risk": "Accept the risk",
+  "back_to_safety": "Back to safety",
+  "was_this_an_error": "Was this an error?",
+  "report_a_false_positive": "Report a false positive."
 }

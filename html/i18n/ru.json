@@ -1,11 +1,11 @@
 {
-  "title": "Внимание",
-  "description": "Сайт, который вы пытались посетить, был заблокирован <b>StopMalwareContent</b>, потому что он был найден в нашем списке и отмечен как вредоносный или потенциально нежелательный. Продолжайте на свой страх и риск, так как это может нанести вред вашему компьютеру.",
-  "blocked": "Заблокировано:",
-  "reason": "Причина:",
-  "notes": "Примечания:",
-  "accept_the_risk": "Принять риск",
-  "back_to_safety": "Вернуться к безопасности",
-  "was_this_an_error": "Думаете то что это ошибка?",
-  "report_a_false_positive": "Сообщить об ошибке."
+  "title": "Alert",
+  "description": "The website that you have tried to visit was blocked by <b>StopMalwareContent</b> because it was found in our list and was flagged as harmful or potentionally unwanted. Continue at your own risk as this may harm your computer.",
+  "blocked": "Blocked:",
+  "reason": "Reason:",
+  "notes": "Notes:",
+  "accept_the_risk": "Accept the risk",
+  "back_to_safety": "Back to safety",
+  "was_this_an_error": "Was this an error?",
+  "report_a_false_positive": "Report a false positive."
 }
