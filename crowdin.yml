@@ -1,3 +1,14 @@
+"project_id_env": "CROWDIN_PROJECT_ID"
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
+"base_path": "."
+"base_url": "https://api.crowdin.com"
+
+"preserve_hierarchy": true
+
 files:
-  - source: /html/i18n/en.json
-    translation: /%original_path%/%two_letters_code%.json
+  [
+    {
+      "source": "/html/i18n/en.json",
+      "translation": "/html/i18n/%two_letters_code%.json",
+    },
+  ]
