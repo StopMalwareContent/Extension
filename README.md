@@ -15,7 +15,7 @@ Restricts access to harmful or unwanted web resources.
 
 ### Why do we need StopMalwareContent if we have the StopModReposts extension?
 
-The main reason is that StopModReposts is **not being actively mantained**, but this extension is receiving constant updates. It also uses the StopModReposts' ``Illegal-Mod-Sites`` list.
+The main reason is that StopModReposts is **not being actively mantained**, but this extension is receiving constant updates. It also uses the StopModReposts' `Illegal-Mod-Sites` list.
 
 ### Can I report a new website?
 

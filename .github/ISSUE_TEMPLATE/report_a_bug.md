@@ -4,7 +4,6 @@ about: Use this template to report bugs in the extension.
 title: "(put a title for the bug here)"
 labels: bug
 assignees: Nitrrine
-
 ---
 
 **Describe the bug you are experiencing:**
@@ -12,15 +11,15 @@ assignees: Nitrrine
 
 **System Details:**
 
-* Operating System: Windows/Mac/Linux [choose relevant one]
-* Browser: Firefox/Chromium [choose relevant one]
-* Extension version: [put the extension version here, e.g. v1.3.5. If you're not sure, check in your browser's extension settings page.]
+- Operating System: Windows/Mac/Linux [choose relevant one]
+- Browser: Firefox/Chromium [choose relevant one]
+- Extension version: [put the extension version here, e.g. v1.3.5. If you're not sure, check in your browser's extension settings page.]
 
 **Steps to reproduce:**
 
-* Step 1: (put step here)
-* Step 2: (put step here)
-[add more as needed]
+- Step 1: (put step here)
+- Step 2: (put step here)
+  [add more as needed]
 
 **Any other notes?**
 (put any other relevant details here)
