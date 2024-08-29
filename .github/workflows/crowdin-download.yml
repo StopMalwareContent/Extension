@@ -1,8 +1,6 @@
 name: Download Crowdin Translations
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -26,7 +24,7 @@ jobs:
 
           create_pull_request: true
           pull_request_title: "New Crowdin translations"
-          pull_request_body: "New Crowdin pull request with translations"
+          pull_request_body: "🤖 An automated pull request containing Crowdin translations, beep-boop."
           pull_request_base_branch_name: "main"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
