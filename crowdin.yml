@@ -8,7 +8,7 @@
 files:
   [
     {
-      "source": "/html/i18n/en.json",
+      "source": "/html/i18n/en_US.json",
       "translation": "/html/i18n/%locale_with_underscore%.json",
     },
   ]
