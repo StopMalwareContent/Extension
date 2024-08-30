@@ -1,0 +1,11 @@
+{
+  "title": "Warnung",
+  "description": "Die Website, die Sie besuchen wollten, wurde von <b>StopMalwareContent</b> blockiert, da sie in unserer Liste gefunden und als schädlich oder potenziell unerwünscht gekennzeichnet wurde. Fahren Sie auf eigenes Risiko fort, da dies Ihrem Computer schaden kann.",
+  "blocked": "Blockiert:",
+  "reason": "Grund:",
+  "notes": "Hinweise:",
+  "accept_the_risk": "Akzeptieren Sie das Risiko",
+  "back_to_safety": "Zurück zur Sicherheit",
+  "was_this_an_error": "War das ein Fehler?",
+  "report_a_false_positive": "Melden Sie einen Fehlalarm."
+}
