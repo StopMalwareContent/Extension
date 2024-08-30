@@ -5,7 +5,7 @@ let blockedSite = {
   path: "",
   url: "",
 };
-let preferedLanguage = navigator.language;
+let preferedLanguage = navigator.language.replace("-", "_");
 
 fetch(`./i18n/${preferedLanguage}.json`)
   .then((response) => response.json())
