@@ -9,6 +9,6 @@ files:
   [
     {
       "source": "/html/i18n/en.json",
-      "translation": "/html/i18n/%two_letters_code%.json",
+      "translation": "/html/i18n/%locale_with_underscore%.json",
     },
   ]
