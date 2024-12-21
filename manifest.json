@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Stop Malware Content",
-  "version": "1.4.0",
+  "version": "1.4.1",
 
   "description": "Restricts access to harmful or unwanted web resources.",
 
@@ -18,7 +18,7 @@
 
   "permissions": ["tabs"],
 
-  "host_permissions": ["https://smc.ldne.xyz/*"],
+  "host_permissions": ["https://smc-api.lodine.xyz/*"],
 
   "background": {
     "scripts": ["background.js"]

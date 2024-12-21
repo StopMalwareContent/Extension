@@ -1,6 +1,6 @@
 // StopMalwareContent's Source Code for Firefox extension
 // Inspired from https://github.com/StopModReposts/Extension
-const API_URL = "https://smc.ldne.xyz/sites";
+const API_URL = "https://smc-api.lodine.xyz/sites";
 let cachedSites = [];
 let ignoreList = [];
 let lastBlockedSite = {
