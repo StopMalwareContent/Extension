@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Stop Malware Content",
-  "version": "1.4.1",
+  "version": "1.4.2",
 
   "description": "Restricts access to harmful or unwanted web resources.",
 

@@ -7,7 +7,7 @@
 ![Mozilla Add-on Rating](https://img.shields.io/amo/rating/stop-malware-content?label=Firefox)
 ![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/fiaoknmfemniellplflmbpbnagnpphkg?label=Chrome)
 
-***
+---
 
 <p align="center">
   <h1 align="center">
@@ -19,7 +19,7 @@
   <p align="center">Restricts access to harmful or unwanted web resources.</p>
 </p>
 
-***
+---
 
 <p align="center">
   <a href="https://ko-fi.com/nitrrine"><img alt="kofi-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_vector.svg"></a>
@@ -32,7 +32,7 @@
   <a href="https://addons.mozilla.org/en-US/firefox/addon/stop-malware-content"><img alt="get-for-firefox" height="60" src="https://github.com/user-attachments/assets/59990490-3e9b-4a76-b974-2a8d0b8e6230"></a>
 </p>
 
-***
+---
 
 ## FAQ
 
