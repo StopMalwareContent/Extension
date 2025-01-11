@@ -1,15 +1,38 @@
-# StopMalwareContent - Browser Extension
+![GitHub Release](https://img.shields.io/github/v/release/StopMalwareContent/Extension)
+![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.sites&label=listed%20sites)
+![Reports Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.reports&label=in%20report%20queue)
+![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)
+![Status Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1hrvd.svg)
+![Crowdin](https://badges.crowdin.net/stopmalwarecontent/localized.svg)
+![Mozilla Add-on Rating](https://img.shields.io/amo/rating/stop-malware-content?label=Firefox)
+![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/fiaoknmfemniellplflmbpbnagnpphkg?label=Chrome)
 
-[![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![Status Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1hrvd.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
-[![Crowdin](https://badges.crowdin.net/stopmalwarecontent/localized.svg)](https://crowdin.com/project/stopmalwarecontent)
-![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc.ldne.xyz%2Fstats&query=%24.sites&label=sites)
-[![Join Discord](https://img.shields.io/badge/join-Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/C8VprernmY)
-[![Support me on Ko-fi](https://img.shields.io/badge/support-on_Ko--fi-FF5E5B?style=flat&logo=kofi&logoColor=white)](https://ko-fi.com/nitrrine)
-[![Add to Firefox](https://img.shields.io/badge/add_to-Firefox-FF7139?style=flat&logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/stop-malware-content)
-[![Add to Chrome](https://img.shields.io/badge/add_to-Chromium-4285F4?style=flat&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/stop-malware-content/fiaoknmfemniellplflmbpbnagnpphkg)
+***
 
-Restricts access to harmful or unwanted web resources.
+<p align="center">
+  <h1 align="center">
+    <sub>
+      <img src="https://github.com/user-attachments/assets/73804e56-5d64-4255-82c0-c473dc88d5ea" width="32" height="32" />
+    </sub>
+    StopMalwareContent - Browser Extension
+  </h1>
+  <p align="center">Restricts access to harmful or unwanted web resources.</p>
+</p>
+
+***
+
+<p align="center">
+  <a href="https://ko-fi.com/nitrrine"><img alt="kofi-singular" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_vector.svg"></a>
+  <a href="https://discord.gg/C8VprernmY"><img alt="discord-plural" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"></a>
+  <a href="https://crowdin.com/project/stopmalwarecontent"><img alt="crowdin" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/translate/crowdin_vector.svg"></a>
+</p>
+
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/stop-malware-content/fiaoknmfemniellplflmbpbnagnpphkg"><img alt="get-for-chrome" height="60" src="https://github.com/user-attachments/assets/ee541ba4-246f-413f-a362-8fdfe55d0d00"></a>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/stop-malware-content"><img alt="get-for-firefox" height="60" src="https://github.com/user-attachments/assets/59990490-3e9b-4a76-b974-2a8d0b8e6230"></a>
+</p>
+
+***
 
 ## FAQ
 
@@ -19,11 +42,11 @@ The main reason is that StopModReposts is **not being actively mantained**, but 
 
 ### Can I report a new website?
 
-Sure! It's very simple, just [Click here](https://github.com/StopMalwareContent/Site-Tracker/issues/new?assignees=Nitrrine&labels=website+add&projects=&template=report-a-threat.md&title=Add+%28url+goes+here%29+to+the+blocklist) to open an issue about a new threat.
+Sure! It's very simple, go to our [website reporting page](https://smc-dashboard.pages.dev/report), fill out required fields and hit Submit Report.
 
 ### There is a false-positive!
 
-If StopMalwareContent is flagging something that it shouldn't, just [Click here](https://github.com/StopMalwareContent/Site-Tracker/issues/new?assignees=Nitrrine&labels=website+remove&projects=&template=report-a-false-positive.md&title=Remove+%28url+goes+here%29+from+block+list) to open an issue about a false-positive.
+If StopMalwareContent is flagging something that it shouldn't, [fill a report here](https://smc-dashboard.pages.dev/report) to notify us about false-positive.
 
 ## Contributors
 
@@ -42,4 +65,4 @@ Harmful website list based on [StopModReposts/Illegal-Mod-Sites](https://github.
 
 ## Block list
 
-You may view the sites blocked by the extension [on our website's Sites section](https://stopmalwarecontent.pages.dev/sites).
+You may view the sites blocked by the extension [on our website's Sites section](https://stopmalwarecontent.lodine.xyz/sites), for more advanced features like search, consider visiting [StopMalwareContent dashboard](https://smc-dashboard.pages.dev/domains).
