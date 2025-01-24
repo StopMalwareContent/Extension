@@ -2,7 +2,7 @@
 ![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.sites&label=listed%20sites)
 ![Reports Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.reports&label=in%20report%20queue)
 ![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)
-![Status Badge](https://uptime.betterstack.com/status-badges/v2/monitor/1hrvd.svg)
+![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flodinesoftware%2Fuptime%2Fmaster%2Fapi%2Fstop-malware-content-api%2Fuptime.json)
 ![Crowdin](https://badges.crowdin.net/stopmalwarecontent/localized.svg)
 ![Mozilla Add-on Rating](https://img.shields.io/amo/rating/stop-malware-content?label=Firefox)
 ![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/fiaoknmfemniellplflmbpbnagnpphkg?label=Chrome)
