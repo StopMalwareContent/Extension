@@ -1,6 +1,6 @@
 {
   "name": "smc-extension",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Restricts access to harmful or unwanted web resources.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

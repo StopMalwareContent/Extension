@@ -1,0 +1,32 @@
+name: Fetch JSON from API
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Runs every 24 hours (adjust UTC if needed)
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch JSON
+        run: |
+          curl -sS https://smc-api.lodine.xyz/sites -o data/sites.json || echo "API is down, using last known copy"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet || echo "CHANGED=true" >> $GITHUB_ENV
+
+      - name: Commit and push if changed
+        if: env.CHANGED == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/sites.json
+          git commit -m "Update sites.json (Automated)"
+          git push

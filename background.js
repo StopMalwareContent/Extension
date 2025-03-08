@@ -1,6 +1,8 @@
 // StopMalwareContent's Source Code for Firefox extension
 // Inspired from https://github.com/StopModReposts/Extension
 const API_URL = "https://smc-api.lodine.xyz/sites";
+const OFFLINE_COPY_URL = "data/sites.json";
+
 let cachedSites = [];
 let ignoreList = [];
 let lastBlockedSite = {
@@ -15,9 +17,23 @@ refreshCache();
 
 function refreshCache() {
   fetch(API_URL)
-    .then((response) => response.json())
     .then((response) => {
-      cachedSites = response;
+      if (!response.ok) throw new Error("API unreachable");
+      return response.json();
+    })
+    .then((data) => {
+      cachedSites = data;
+    })
+    .catch(() => {
+      console.warn("Using offline copy due to API failure");
+      return fetch(OFFLINE_COPY_URL)
+        .then((response) => response.json())
+        .then((data) => {
+          cachedSites = data;
+        })
+        .catch(() => {
+          console.error("Failed to load offline copy");
+        });
     });
 }
 
