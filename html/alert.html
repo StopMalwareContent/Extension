@@ -73,7 +73,7 @@
       .details {
         padding: 1em;
         border: 1px solid var(--primary);
-        border-radius: 4px;
+        border-radius: 5px;
       }
 
       .btn {
@@ -81,25 +81,34 @@
         padding: 0.5em 1em;
         cursor: pointer;
         border: 1px solid transparent;
-        border-radius: 2px;
+        background: transparent;
+        border-radius: 5px;
       }
 
       .btn.primary {
         color: #fff;
-        background: transparent;
         border: 1px #a8a8a8 solid;
       }
 
       .btn.secondary {
         color: #fff;
-        background: transparent;
         border: 1px var(--primary) solid;
       }
 
       .footer {
         display: flex;
+        justify-content: center;
         color: #ccc;
+      }
+
+      .footer span {
+        display: flex;
         gap: 0.3em;
+        opacity: 0.7;
+      }
+
+      .footer span:hover {
+        opacity: 1;
       }
 
       .footer a {
@@ -178,15 +187,17 @@
         </button>
       </div>
       <div class="footer">
-        <p class="secondary" translate-key="was_this_an_error">
-          Was this an error?
-        </p>
-        <a
-          href="https://smc-dashboard.pages.dev/report"
-          translate-key="report_a_false_positive"
-          target="_blank"
-          >Report a false positive.</a
-        >
+        <span>
+          <p class="secondary" translate-key="was_this_an_error">
+            Was this an error?
+          </p>
+          <a
+            href="https://smc-dashboard.pages.dev/report"
+            translate-key="report_a_false_positive"
+            target="_blank"
+            >Report a false positive.</a
+          >
+        </span>
       </div>
     </section>
     <script src="alert.js"></script>
