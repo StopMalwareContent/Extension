@@ -1,10 +1,7 @@
 {
   "name": "smc-extension",
-  "version": "1.4.3",
-  "description": "Restricts access to harmful or unwanted web resources.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.4.4",
+  "description": "Alerts you when you attempt to visit suspicious or harmful websites.",
   "keywords": [],
   "author": "StopMalwareContent's Contributors",
   "license": "GPL-3.0",

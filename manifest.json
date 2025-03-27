@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Stop Malware Content",
-  "version": "1.4.3",
+  "version": "1.4.4",
 
-  "description": "Restricts access to harmful or unwanted web resources.",
+  "description": "Alerts you when you attempt to visit suspicious or harmful websites.",
 
   "developer": {
     "name": "Lodine Software",
