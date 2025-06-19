@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Stop Malware Content",
-  "version": "1.4.4",
+  "version": "1.4.5",
 
   "description": "Alerts you when you attempt to visit suspicious or harmful websites.",
 
