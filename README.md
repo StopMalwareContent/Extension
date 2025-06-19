@@ -1,8 +1,10 @@
+> [!IMPORTANT]  
+> We do not have enough funds to continue supporting this project, which means that updates are suspended indefinitely. [View API Shutdown Notice](https://stopmalwarecontent.lodine.xyz/blog/15-06-25-project-status).
+
 ![GitHub Release](https://img.shields.io/github/v/release/StopMalwareContent/Extension)
 ![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.sites&label=listed%20sites)
 ![Reports Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.reports&label=in%20report%20queue)
-![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)
-![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flodinesoftware%2Fuptime%2Fmaster%2Fapi%2Fstop-malware-content-api%2Fuptime.json)
+![Maintenance](https://img.shields.io/badge/maintained%3F-stale-yellow.svg)
 ![Crowdin](https://badges.crowdin.net/stopmalwarecontent/localized.svg)
 ![Mozilla Add-on Rating](https://img.shields.io/amo/rating/stop-malware-content?label=Firefox)
 ![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/fiaoknmfemniellplflmbpbnagnpphkg?label=Chrome)
