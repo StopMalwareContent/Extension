@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> We do not have enough funds to continue supporting this project, which means that updates are suspended indefinitely. [View API Shutdown Notice](https://stopmalwarecontent.lodine.xyz/blog/15-06-25-project-status).
+> **This repository is no longer maintained. All future development is now in the [monorepo](https://github.com/StopMalwareContent/Code).**
 
 ![GitHub Release](https://img.shields.io/github/v/release/StopMalwareContent/Extension)
 ![Sites Count](https://img.shields.io/badge/dynamic/json?url=https://smc-api.lodine.xyz%2Fstats&query=%24.sites&label=listed%20sites)
